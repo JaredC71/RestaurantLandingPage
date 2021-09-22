@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 90vh;
+
+    background-image: url("./images/landingbackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero_section {
+    width: 35%;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 90vh;
+    background-color: #c6ad8f;
+}
+.hero_section img {
+    position: relative;
+    bottom: 50px;
+    width: 290px;
+    height: 172px;
+}
+.hero_section p {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: white;
+}
+.hero_section h1 {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    color: white;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+.hero_section button {
+
+    padding: 10px 30px;
+    background-color: #425664;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-style: normal;
+
+    font-family: Georgia, serif;
+}
+
+.AboutContainer {
+    width: 100%;
+    height: 500px;
+    background-color: #425664;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+
+}
+.aboutRow {
+    display: flex;
+    width: 100%;
+   align-items: center;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+.iconContainer {
+    width: 228px;
+    height: auto;
+    border: solid 1px #c6ad8f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    margin: 10px;
+    text-align: center;
+}
+.iconContainer p {
+    color: #c6ad8f;
+    font-size: 24px;
+
+}
+.iconContainer i {
+    color: wheat;
+    margin-bottom: 20px;
+
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutTextContainer h1{
+    color: white;
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-bottom: 10px;
+   font-size: 40px;
+}
+.aboutTextContainer p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 500px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    color: white;
+    padding-right: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.aboutTextContainer button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+
+}
+.Pictures {
+    width: 100%;
+    height: 400px;
+    background-color: lightgray;
+}
+
+.contentRow {
+    width: 100%;
+    height: 100%;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contentRow img {
+    margin: 10px;
+}
+.contentRow p {
+    font-size: 20px;
+    line-height: 40px;
+    width: 500px;
+    position: relative;
+    bottom: 50px;
+    
+}
+#ribs {
+    width: 364px;
+    height: 321px;
+    position: relative;
+    bottom: 100px;
+}
+#fish {
+    width: 345px;
+    height: 364px;
+    position: relative;
+    bottom: 150px;
+}
+.welcomeContainer {
+    background-color: #c6ad8f;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.welcomeText p {
+    width: 700px;
+    color: rgb(230, 230, 230);
+    margin: 20px 0;
+
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.welcomeText h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+}
+.welcomeText h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    color: #425664;
+}
+
+.welcomeText button {
+    background-color: #425664;
+    border: none;
+    color: white;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+}
+.steak-bg-img {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    bottom: 90px;
+    background-image: url("./images/steak.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.steakpicture {
+    height: 500px;
+    width: 100%;
+    background-image: url("./images/steak2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.drinksDessertsContainer {
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerflex {
+    display: flex;
+    
+}
+.drinksDessertsText {
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.drinksDessertsText h1 {
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.drinksDessertsText button {
+    background-color: #425664;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    letter-spacing: 3px;
+}
+.alcholicbeverarge {
+    width: 364px;
+    height: 419px;
+    background-image: url("./images/alcoholicbeverage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 20px;
+    position: relative;
+    top: 50px;
+   
+ 
+}
+.dessertbeverage {
+    width: 364px;
+    height: 419px;
+    background-image: url("./images/dessertdrink.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    position: relative;
+    bottom: 100px;
+
+}
+
+
+.gallery {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    background-color: lightgray;
+    
+    
+}
+.galleryPic {
+    width: 33.3%;
+    height: 335px;
+}
+.salmon {
+    background-image: url("./images/salmon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fishdish {
+    background-image: url("./images/fishdish.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.raresteak {
+    background-image: url("./images/raresteak.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.anothersteak {
+    background-image: url("./images/anothersteak.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bagels {
+
+    background-image: url("./images/bagels.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.laststeak {
+
+    background-image: url("./images/laststeak.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.footer {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+    align-items: center;
+    width: 100%;
+    background-color: #425664;
+}
+.footer p {
+    margin: 10px 0;
+}
+
+.footer h1 {
+    margin: 10px 0;
+}
+@media(max-width: 1193px) {
+
+    #ribs {
+        width: 264px;
+        height: 200px;
+        position: relative;
+        bottom: 50px;
+    }
+    #fish {
+        width: 350px;
+        height: 364px;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .contentRow p {
+        font-size: 15px;
+        line-height: 40px;
+        text-align: right;
+        width: 500px;
+        position: relative;
+        bottom: 50px;
+        
+    }
+
+
+
+}
+
+@media(max-width: 1060px) {
+
+    #ribs {
+        width: 264px;
+        height: 200px;
+        bottom: 0;
+   
+    }
+    #fish {
+        width: 300px;
+        height: 200px;
+       bottom: 0;
+    }
+
+    .contentRow p {
+        font-size: 15px;
+        line-height: 40px;
+        text-align: left;
+        width: 100%;
+        position: relative;
+        bottom: 50px;
+        
+    }
+    .aboutRow {
+        display: flex;
+   
+        width: 100%;
+       align-items: center;
+        justify-content: space-around;
+        padding: 50px 0px;
+    }
+    .contentRow {
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .steak-bg-img {
+        width: 200px;
+        height: 500px;
+        position: relative;
+        bottom: 50px;
+        background-image: url("./images/steak.png");
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+
+
+}
+@media(max-width: 1029px) {
+
+    #ribs {
+        width: 264px;
+        height: 200px;
+        bottom: 0;
+   
+    }
+    #fish {
+        width: 300px;
+        height: 200px;
+       bottom: 0;
+    }
+
+    .contentRow p {
+        font-size: 15px;
+        line-height: 40px;
+        text-align: left;
+        width: 100%;
+        position: relative;
+        bottom: 50px;
+        
+    }
+    .aboutRow {
+        display: flex;
+   
+        width: 100%;
+       align-items: center;
+        justify-content: space-around;
+        padding: 50px 0px;
+    }
+    .contentRow {
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .steak-bg-img {
+        width: 200px;
+        height: 500px;
+        position: relative;
+        bottom: 50px;
+        background-image: url("./images/steak.png");
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    .innerflex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .alcholicbeverarge {
+        width: 364px;
+        height: 419px;
+        background-image: url("./images/alcoholicbeverage.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 0;
+        margin: 20px 0;
+   
+     
+      
+       
+     
+    }
+    .dessertbeverage {
+        width: 364px;
+        height: 419px;
+        bottom: 0;
+        
+
+        background-image: url("./images/dessertdrink.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+ 
+    
+    }
+
+
+
+}
+@media(max-width: 940px) {
+    .welcomeContainer {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 500px;
+        align-items: center;
+    }
+    
+    .steak-bg-img {
+        display: none;
+    }
+}
+
+@media(max-width: 930px) {
+    .aboutRow {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .aboutRow button {
+        display: flex;
+        margin: 0px 0px 0px 20px;
+        
+    }
+    .aboutRow p {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        font-size: 15px;
+    }
+
+
+    .AboutContainer {
+        width: 100%;
+        height: auto;
+        background-color: #425664;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    
+    }
+ 
+}
+
+@media(max-width: 938px) {
+
+    .hero_section {
+        width: 100%;
+        background-color: #c6ad8fb7;
+    }
+
+}
+
+@media(max-width: 745px) {
+    .welcomeText p {
+        width: 100%;
+    }
+    .galleryPic {
+        width: 50%;
+    }
+ 
+ 
+}
+
+@media(max-width: 606px) {
+    .contentRow {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .galleryPic {
+        width: 100%;
+    }
+
+    .contentRow p {
+        margin-top: 50px;
+    }
+    .Pictures {
+        width: 100%;
+        height: auto;
+    }
+    .welcomeText h2 {
+        margin: 10px 0;
+    }
+    .welcomeText {
+        padding: 20px 0;
+        width: 100%;
+
+
+        height: auto;
+    }
+    .welcomeText p {
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+@media(max-width: 500px) {
+   .iconContainer {
+       display: block;
+       margin: 0 auto;
+      
+   }
+   .aboutTextContainer h1 {
+       padding-top: 30px;
+   }
+}
